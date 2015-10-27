@@ -1,5 +1,4 @@
 module SereneIsAwesome
-  # Sinatra app to give basic film showing details.
   class App < Sinatra::Base
 
     get '/' do
@@ -14,11 +13,9 @@ module SereneIsAwesome
       haml :resume
     end
 
-    #
-    # Error Handling
-    #
     not_found do
-      { status: 404, message: 'Bummertown. Not found. :/' }
+      status 404
+      haml :doh
     end
   end
 end

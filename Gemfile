@@ -1,10 +1,13 @@
 source 'http://rubygems.org'
 
-ruby '2.2.0-dev'
+ruby '2.2.0'
 
 #sinatra stuff
 gem 'sinatra'
 gem 'sinatra-contrib'
+
+#task stuff
+gem 'rake'
 
 #server stuff
 gem 'unicorn'
@@ -15,7 +18,7 @@ gem 'font-awesome-sass', '~> 4.4.0'
 gem 'haml'
 
 group :development, :test do
-  get 'rerun'
+  gem 'rerun'
   gem 'minitest'
   gem 'thin'
   gem 'foreman'
