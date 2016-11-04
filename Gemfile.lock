@@ -65,6 +65,7 @@ DEPENDENCIES
   foreman
   haml
   minitest
+  rack-test
   rake
   rerun
   sass
@@ -74,4 +75,4 @@ DEPENDENCIES
   unicorn
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

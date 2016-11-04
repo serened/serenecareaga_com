@@ -1,6 +1,6 @@
 module SereneIsAwesome
-  class App < Sinatra::Base
-
+  #class App < Sinatra::Base
+  class App
     get '/' do
       content_type :html
 

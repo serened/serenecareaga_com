@@ -1,6 +1,8 @@
 module SereneIsAwesome
-  class Resume
+ class Resume < Sinatra::Base
+
     def initialize
     end
+
   end
 end

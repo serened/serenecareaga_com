@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.2.3'
 
 #sinatra stuff
 gem 'sinatra'
@@ -18,6 +18,7 @@ gem 'font-awesome-sass', '~> 4.4.0'
 gem 'haml'
 
 group :development, :test do
+  gem 'rack-test'
   gem 'rerun'
   gem 'minitest'
   gem 'thin'
