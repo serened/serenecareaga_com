@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Hi, my name is Serene
+email: info@serenecareaga.com
+description: > # this means to ignore newlines until "baseurl:"
+  'Hi there, my name is Serene Careaga. I am a software developer hailing from Seattle via Albuquerque.'
+url: "http://serenecareaga.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: radtacular_
+github_username:  serened
+timezone:  America/Los_Angeles
+theme: minima
+keywords:
+ - Serene Careaga
+ - Ruby Seattle
+ - radtacular_
+ - serened
+author:
+    name: Serene Careaga
+    email: info@serenecareaga.com
+    twitter: http://twitter.com/radtacular_
+    github: http://github.com/serened
+    linkedin: http://www.linkedin.com/in/serenecareaga/
+    avatar: http://www.gravatar.com/avatar/656ce77a62d89e2f158faf7f030b3533
+    
+# appearance
+permalink: pretty 
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile

@@ -1,0 +1,60 @@
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 1.2em;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-family: helvetica;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+
+//nav
+body {
+  margin: 0;
+  padding: 0;
+  background: $white;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: $dark-gray;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: $fixed-font-family;
+	color: $light-gray;
+  font-size: 1.2em;
+	height: $base-line-height;
+  line-height: $base-line-height;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+
